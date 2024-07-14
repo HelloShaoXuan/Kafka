@@ -12,6 +12,11 @@ Kafka：
         - 推送到GitHub
             git push -u origin master
 
+        更新代码后上传
+        - git add .
+        - git commit -m "Updated some files with new features"
+        - git push origin master
+
     一、Kafka安装目录：
         /usr/local/kafka_2.13-3.7.0
 
