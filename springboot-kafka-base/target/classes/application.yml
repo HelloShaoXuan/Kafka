@@ -1,0 +1,16 @@
+spring:
+  application:
+    # 应用名称
+    name: springboot-kafka-base
+  # Kafka配置
+  kafka:
+    # 连接地址
+    bootstrap-servers: 192.168.101.131:9092
+    #生产者
+    #producer:
+    #消费者
+    consumer:
+      auto-offset-reset: earliest
+    template:
+      default-topic: topic-xuan
+
