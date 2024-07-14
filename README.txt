@@ -1,4 +1,17 @@
 Kafka：
+    GitHub：
+        - 创建GitHub仓库
+        - cd 项目根目录
+        - 初始化Git仓库
+            git init
+        - 添加远程仓库
+            git remote add origin https://github.com/HelloShaoXuan/Kafka.git
+        - 添加并提交文件
+            git add .
+            git commit -m "Initial commit"
+        - 推送到GitHub
+            git push -u origin master
+
     一、Kafka安装目录：
         /usr/local/kafka_2.13-3.7.0
 
